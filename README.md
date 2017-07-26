@@ -35,3 +35,8 @@ using the following steps:
 
 2. `grep "Blast_uniprot_gn" -i stringMapping.txt | awk 'BEGIN{OFS="\t"} {print $1, $2}' > mappingFile123.txt`
 `
+
+### Usage
+(You may need to use `chmod 775 STRING_to_GeneSymbol.R`)
+
+`./STRING_to_GeneSymbol.R <Input File> <Mapping File> <Output File>`
